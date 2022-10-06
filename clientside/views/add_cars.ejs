@@ -14,8 +14,8 @@
   <script src="https://kit.fontawesome.com/a46d74ff5b.js" crossorigin="anonymous"></script>
 
 
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/sidebar_sticky.css" />
+  <link rel="stylesheet" href="../public/css/style.css" />
+  <link rel="stylesheet" href="../public/css/sidebar_sticky.css" />
 
 </head>
 
@@ -58,7 +58,7 @@
 
     <section class="container-fluid ">
 
-      <form method="post" class="container-fluid d-flex flex-column rounded-2" style="background: #FFFFFF; ">
+      <form form action="/add-new-car" method="post" enctype="multipart/form-data" class="container-fluid d-flex flex-column rounded-2" style="background: #FFFFFF; ">
 
         <div class="d-flex align-items-center flex-row mb-2 mt-5">
           <label for="nama_kendaraan" class="input_kendaraan" style="width: 13%;">Nama</label>
@@ -74,14 +74,13 @@
 
         <div class="d-flex align-items-center flex-row my-2">
           <label for="ukuran_kendaran" class="input_kendaraan" style="width: 13%;">Ukuran</label>
-
           <select class="input_data_car" id="ukuran_kendaran" style="width:35% ; border: 1px solid #D0D0D0;
           border-radius: 2px; color: #595858; ">
 
             <option hidden>Ukuran Kendaraan</option>
-            <option value="1">Small</option>
-            <option value="2">Medium</option>
-            <option value="3">Large</option>
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
           </select>
           <span id="icon_ukuran_kendaraan">
             <i class="fa-solid fa-chevron-down"></i>
@@ -102,23 +101,24 @@
           </div>
         </div>
 
+        <div class="container-fluid d-flex flex-row mt-5  ms-0 justify-content-start " style="width:25% ;">
+          <button id="cancel_button" class="btn btn-primary ">
+            <span>
+  
+              <a class="text-decoration-none" style="color: #0D28A6;" href="/cars">
+                Cancel
+              </a>
+            </span>
+          </button>
+          <button id="save_button" type="button" class="btn btn-primary  " onclick="confirm()">
+            Save</button>
+          <button id="submit_btn" type="submit" hidden></button>
+          
+        </div>
 
       </form>
 
-      <div class="container-fluid d-flex flex-row mt-5  ms-0 justify-content-start " style="width:25% ;">
-        <button id="cancel_button" class="btn btn-primary ">
-          <span>
-
-            <a class="text-decoration-none" style="color: #0D28A6;" href="/cars">
-              Cancel
-            </a>
-          </span>
-        </button>
-        <button id="save_button" type="button" class="btn btn-primary  " onclick="confirm()">
-          Save</button>
-        <button id="submit_btn" type="submit" hidden></button>
-        
-      </div>
+      
     </section>
 
 
@@ -139,7 +139,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-<script src="./scripts/sidebar.js"></script>
+<script src="/clientside/public/scripts/sidebar.js"></script>
 
 
 
