@@ -1,0 +1,269 @@
+a, p, label, input {
+    font-family: 'IBM Plex Sans' !important;
+    
+
+}
+#main {
+    transition: margin-left 0.7s;
+    padding: 16px;
+    
+}
+
+
+#btn-search, #input-search, :focus {
+    background: #FFFFFF;
+    border: 1px solid #0D28A6;
+    border-radius: 2px;
+    box-shadow: none !important;
+    color: #0D28A6;
+}
+
+#btn-search:hover {
+    background: #13267c;
+    color: #FFFFFF;
+}
+
+#menu_Button {
+    border: 1px solid #0D28A6;
+    background: none !important;
+    border-radius: 2px;
+}
+
+#menu_Button:hover {
+    background: #13267c !important;
+    color: #FFFFFF !important;
+    border: 1px soli #FFFFFF !important;
+}
+
+#profil:focus {
+    border: none !important;
+    color: white;
+    border-color: #FFFFFF;
+}
+
+#tambah_kendaraan {
+    background: #0D28A6;
+    border-radius: 2px;
+    margin-right: 2% !important;
+    width: 100%;
+}
+
+#tambah_kendaraan:hover {
+    background: #FFFFFF;
+    color: #0D28A6;
+    border-radius: 2px;
+    margin-right: 2% !important;
+    width: 100%;
+}
+
+#button_all, #button_small, #button_medium, #button_large {
+    border: 1px solid #AEB7E1 !important;
+    border-radius: 2px !important;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #AEB7E1;
+    background: #FFFFFF;
+    margin-right: 0.4%;
+    height: 36px;
+}
+
+#button_all:hover, #button_small:hover, #button_medium:hover, #button_large:hover {
+    background: #CFD4ED;
+    border: 1px solid #0D28A6 !important;
+    border-radius: 2px !important;
+    color: #0D28A6;
+    background: #CFD4ED;
+
+}
+
+#button_delete {
+    background: #FA2C5A;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 2px;
+    align-items: center;
+    padding: 8px 12px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    border-color: #FA2C5A;
+}
+
+#button_edit {
+    background: #5CB85F;
+    border-radius: 2px;
+    align-items: center;
+    padding: 8px 12px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    border-color: #5CB85F;
+}
+
+#button_delete:hover, #button_delete:focus {
+    background: #FFFFFF;
+    border: 1px solid #FA2C5A !important;
+    border-radius: 2px;
+    align-items: center;
+    padding: 8px 12px;
+    color: #FA2C5A !important;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+}
+
+#button_edit:hover, #button_edit:focus {
+    background: #FFFFFF;
+    border: 1px solid #5CB85F;
+    border-radius: 2px;
+
+    align-items: center;
+    padding: 8px 12px;
+    color: #5CB85F;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+}
+
+#tampil_mobil {
+    display: grid !important;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-between !important;
+}
+
+.breadcrumb-item a {
+    font-family: 'IBM Plex Sans';
+    font-style: normal !important;
+    font-weight: 700;
+    color: #000000 !important;
+    text-decoration: none !important;
+    font-size: 12px;
+}
+
+.breadcrumb-item {
+    font-size: 12px;
+}
+
+.input_kendaraan::after {
+    content: "*";
+    color: red;
+}
+
+#cancel_button, #save_button {
+    background: #FFFFFF;
+    border: 1px solid #0D28A6;
+    margin-right: 2% !important;
+    width: 100%;
+    color: #0D28A6;
+    z-index: 1;
+}
+
+#save_button:hover {
+    background: #0D28A6;
+    border: 1px solid #0D28A6;
+    margin-right: 2% !important;
+    width: 100%;
+    color: #FFFFFF !important;
+}
+
+#cancel_button:hover {
+    background: #0D28A6;
+    border: 1px solid #0D28A6;
+    margin-right: 2% !important;
+    width: 100%;
+    color: #FFFFFF !important;
+}
+
+
+
+
+
+
+#formFile, #tipe_kendaraan, #nama_kendaraan {
+    background: #FFFFFF !important;
+    border: 1px solid #D0D0D0 !important;
+    border-radius: 2px !important;
+}
+
+.input_data_car {
+    height: 39px;
+    color: #595858 !important;
+    text-indent: 10px;
+}
+
+.input_data_car::after {
+    border: 1px solid #D0D0D0 !important;
+    border-radius: 2px !important;
+}
+
+.input_data_car:focus-visible {
+    outline: none !important;
+    border: 1px solid #D0D0D0 !important;
+    border-radius: 2px !important;
+}
+
+
+
+.styled-file-select {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.styled-file-select input[type="file"] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    color: #FFFFFF;
+    opacity: 0;
+    height: 39px;
+}
+
+.styled-file-select input[type="text"] {
+    box-sizing: border-box;
+    width: 100%;
+    height: 39px;
+    display: block;
+    border: 1px solid #D0D0D0 !important;
+    outline: none;
+    text-indent: 10px;
+    background-color: #FFFFFF;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.styled-file-select span {
+    display: block;
+    position: absolute;
+    right: 0.1%;
+    top: 10%;
+    width: 10% !important;
+    height: 10% !important;
+    text-align: center;
+    align-items: center;
+    z-index: 0;
+    font-size: 20px;
+    color: #8A8A8A;
+}
+
+#ukuran_kendaran{
+    -webkit-appearance: none !important;
+}
+
+#icon_ukuran_kendaraan {
+    display: block;
+    margin-left: -2%;
+    z-index: 1 !important;
+    color: #8A8A8A !important ;
+
+}   
+
+

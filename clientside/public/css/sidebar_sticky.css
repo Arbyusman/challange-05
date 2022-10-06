@@ -1,0 +1,109 @@
+#input-search{
+    background: url(/public/images/icons/fi_search.png) no-repeat left  ;
+    background-size: auto;
+    padding-left: 15%;
+    background-position: 4%;
+    color: #151515;
+    
+}
+
+#breadcumb{
+    width: 80%;
+    left: 16%;
+    margin-left: 16%;
+}
+
+#main{
+    left: 16%;
+    width: 80%;
+    margin-left: 16%;
+
+}
+
+.sidenav {
+    height: 830px;
+    width: 4%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: #0D28A6;
+    overflow-x: hidden;
+    transition: 0.7s;
+
+}
+
+
+.sidenav div a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: relative;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+#header{
+    transition: margin-left 0.7s;
+    margin-left: 4%;
+}
+
+
+
+#button_cars, #button_dasboard {
+    background: none !important;
+    border-width: 0% !important;
+    border-style: none !important;
+    border-image: none !important;
+}
+
+#dasboard:hover, #cars:hover {
+    background: rgba(255, 255, 255, 0.3) !important;
+
+}
+
+#sidebar {
+    height: 753px;
+    top: 8% ;
+    width: 12% !important;
+    position: fixed;
+    z-index: -1;
+    overflow-x: hidden;
+    transition: 0.7s !important;
+    box-sizing: border-box;
+    left: 4%;
+    background: #FFFFFF;
+    border-radius: 0% !important;
+    box-shadow: #f1f1f1;
+    
+
+
+}
+
+#list-car:hover {
+    background: #CFD4ED;
+
+}
+#list-car {
+    margin-top: 2% !important;
+}
+
+#list-car-button {
+  
+    border: none !important;
+}
+#list-car-a:focus,#list-car-a{
+    background: none !important;
+    border: none !important;
+    color: #151515;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    border: none !important;
+
+}
+
