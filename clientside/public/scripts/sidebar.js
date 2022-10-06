@@ -47,7 +47,7 @@ function close() {
 }
 
 function openlistcar() {
-  document.getElementById("list-car-a").href="cars";
+  document.getElementById("list-car-a").href="http://localhost:4242/list-cars";
   document.getElementById("mySidenav").width="4%";
 
 }

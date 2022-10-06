@@ -11,5 +11,13 @@
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.24.0",
     "sequelize-cli": "^6.5.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "description": ""
 }

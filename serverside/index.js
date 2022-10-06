@@ -15,7 +15,8 @@ app.post('/addCar',(req,res)=>{
         res.status(500).json(err)
     })
 })
-//get listcars
+
+//get all listcars
 app.get('/listCars',(req,res)=>{
     cars.findAll().then(cars =>{
         res.status(200).json({data:cars})
@@ -24,6 +25,7 @@ app.get('/listCars',(req,res)=>{
     })
 })
 
+//update car
 app.get('/listCar/:id',(req,res)=>{
     const id = req.params.id
     cars.findByPk(id).then(cars =>{
@@ -33,8 +35,7 @@ app.get('/listCar/:id',(req,res)=>{
     })
 })
 
-//updare car
-app.put('/updateCar/:id',(req,res)=>{
+app.put('/listCar/:id',(req,res)=>{
     const id = req.params.id
     const body = req.body
     cars.update(body,{where: {'id':id}}).then(cars =>{
@@ -44,6 +45,7 @@ app.put('/updateCar/:id',(req,res)=>{
     })
 })
 
+//deletecar
 app.delete('/deleteCar/:id',(req,res)=>{
     const id = req.params.id
     cars.destroy({where: {'id':id}}).then(cars =>{

@@ -10,19 +10,15 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       name_car: {
-        allowNull: false,
         type: Sequelize.STRING
       },
       rent_cost: {
-        allowNull: false,
         type: Sequelize.INTEGER
       },
       size_car: {
-        allowNull: false,
         type: Sequelize.STRING
       },
       image_car: {
-        allowNull: false,
         type: Sequelize.STRING
       },
       createdAt: {
