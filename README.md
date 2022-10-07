@@ -6,7 +6,8 @@
 ### Server-Side API 
 ```
 - Post: http://localhost:2424/addCar
-- Get: http://localhost:2424/listCars / http://localhost:2424/listCars/:id
+- Get: http://localhost:2424/listCars 
+--  http://localhost:2424/listCars/:id
 - Put: http://localhost:2424/listCar/:id
 - Delete: http://localhost:2424/deleteCar/:id
 ```
