@@ -4,17 +4,21 @@
 ![App Screenshot](https://res.cloudinary.com/duoehn6px/image/upload/v1665138611/image/ses0bhfqipcwc8coxm8y.png)
 
 ### Server-Side API 
-Post: http://localhost:2424/addCar
-Get: http://localhost:2424/listCars / http://localhost:2424/listCars/:id
-Put: http://localhost:2424/listCar/:id
-Delete: http://localhost:2424/deleteCar/:id
+```
+- Post: http://localhost:2424/addCar
+- Get: http://localhost:2424/listCars / http://localhost:2424/listCars/:id
+- Put: http://localhost:2424/listCar/:id
+- Delete: http://localhost:2424/deleteCar/:id
+```
 
 ### EndPoint Client-Side
-Get dasboard http://localhost:4242/
-Get list cars http://localhost:4242/list-cars
-Create car http://localhost:4242/add-new-car
-update car http://localhost:4242/update-car-information/:id
-delete car http://localhost:4242/delete-car/:id
+```
+- Get dasboard http://localhost:4242/
+- Get list cars http://localhost:4242/list-cars
+- Create car http://localhost:4242/add-new-car
+- update car http://localhost:4242/update-car-information/:id
+- delete car http://localhost:4242/delete-car/:id
+```
 
 
 ### List cars
