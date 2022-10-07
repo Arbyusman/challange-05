@@ -34,7 +34,8 @@
       aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li id="breadcrumb-cars" class="breadcrumb-item"><a href="/">Cars</a></li>
-        <li id="breadcrumb-list-cars" class="breadcrumb-item active" aria-current="page"><a href="/http://localhost:4242/add-new-car">List Cars</a>
+        <li id="breadcrumb-list-cars" class="breadcrumb-item active" aria-current="page"><a
+            href="/http://localhost:4242/add-new-car">List Cars</a>
         </li>
         <li id="breadcrumb-add-cars" class="breadcrumb-item active " aria-current="page"><a href="">Add New Car</a>
         </li>
@@ -47,7 +48,6 @@
 
     <section class="mb-3">
 
-
       <div class="d-flex flex-row justify-content-between align-items-center  mt-2  ">
         <h4 class="d-flex fw-bolder d-flex align-content-center align-items-cente p-0 mb-0">
           Add New Car
@@ -58,11 +58,13 @@
 
     <section class="container-fluid ">
 
-       <form form action="/add-new-car" method="post" enctype="multipart/form-data" class="container-fluid d-flex flex-column rounded-2" style="background: #FFFFFF; ">
+      <form form action="/add-new-car" method="post" enctype="multipart/form-data"
+        class="container-fluid d-flex flex-column rounded-2" style="background: #FFFFFF; ">
 
         <div class="d-flex align-items-center flex-row mb-2 mt-5">
           <label for="nama_kendaraan" class="input_kendaraan" style="width: 13%;">Nama</label>
-          <input type="text" class="input_data_car" name="name_car" id="nama_kendaraan" placeholder="Merek Kendaraan" style="width:35% ; border: 1px solid #D0D0D0;
+          <input type="text" class="input_data_car" name="name_car" id="nama_kendaraan" placeholder="Merek Kendaraan"
+            style="width:35% ; border: 1px solid #D0D0D0;
           border-radius: 2px;">
         </div>
 
@@ -94,27 +96,24 @@
           </div>
 
           <div class="styled-file-select" style=" width:35%; ">
-            <input id="foto_kendaraan"  class="no-bg no-border" type="text" disabled
+            <input id="foto_kendaraan" class="no-bg no-border" type="text" disabled
               placeholder="Pilih Gambar (jpg/png)" />
             <span> <i class="fa-solid fa-arrow-up-from-bracket"></i></span>
             <input type="file" name="image_car" />
           </div>
         </div>
 
+
         <div class="container-fluid d-flex flex-row mt-5  ms-0 justify-content-start " style="width:25% ;">
-          <button id="cancel_button" class="btn btn-primary ">
-            <span>  
-              <a class="text-decoration-none" style="color: #0D28A6;" href="http://localhost:4242/list-cars">
-                Cancel
-              </a>
-            </span>
-          </button>
+          <a class="text-decoration-none" style="color: #0D28A6;" href="http://localhost:4242/list-cars">
+            <button id="cancel_button" class="btn btn-primary ">
+              Cancel
+            </button>
+          </a>
           <button id="save_button" type="submit" class="btn btn-primary  ">
             Save</button>
-        
         </div>
-
-      </form>  
+      </form>
 
     </section>
 
