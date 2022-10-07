@@ -2,7 +2,7 @@
  
 ## ERD
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://res.cloudinary.com/duoehn6px/image/upload/v1665138611/image/ses0bhfqipcwc8coxm8y.png)
 
 ## API Reference
 
